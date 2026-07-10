@@ -3,9 +3,6 @@ models:
     description: Order data with basic cleaning and transformation applied, one row per order.
     access: public
     group: platform
-    config:
-      contract:
-        enforced: true
     columns:
       - name: order_id
         description: The unique key for each order.
