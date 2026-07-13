@@ -2,7 +2,7 @@ with
 
 order_items as (
 
-    select * from {{ ref('jaffle_shop_mesh_platform', 'stg_order_items') }}
+    select * from {{ ref('jaffle_shop_mesh_platform', 'stg_order_items') }} -- change
 
 ),
 
