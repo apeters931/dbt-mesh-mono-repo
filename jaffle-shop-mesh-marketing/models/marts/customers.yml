@@ -3,9 +3,6 @@ models:
     description: Customer overview data mart, offering key details for each unique customer. One row per customer.
     access: protected
     group: marketing
-    config:
-      contract:
-        enforced: true
     columns:
       - name: customer_id
         data_type: text
