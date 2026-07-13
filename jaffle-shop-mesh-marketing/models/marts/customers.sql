@@ -2,7 +2,7 @@ with
 
 customers as (
 
-    select * from {{ ref('stg_customers') }} -- change
+    select * from {{ ref('stg_customer') }} -- change
 
 ),
 
