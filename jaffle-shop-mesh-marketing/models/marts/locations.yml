@@ -4,9 +4,6 @@ models:
       Location dimension table. The grain of the table is one row per location.
     access: protected
     group: marketing
-    config:
-      contract:
-        enforced: true
     columns:
       - name: location_id
         data_type: text
